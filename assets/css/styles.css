@@ -1,0 +1,97 @@
+body {
+	background: black;
+}
+
+#row {
+	position: absolute;
+	width: 600px;
+	top: 50%;
+	left: 40%;
+	margin: -100px  -150px;
+	font-family: 'Varela Round', sans-serif;
+ 
+
+}
+
+.dropdown {
+	/*position: absolute;*/
+/*	top: 39.6%;
+	left: 13%;*/
+	font-family: 'Varela Round', sans-serif;
+	float: right;
+}
+
+#submit-button {
+	position: absolute;
+/*	left: 100.3%;
+	bottom: 19.7%;*/
+	font-family: 'Varela Round', sans-serif;
+}
+
+#logo {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	left: 25%;
+
+}
+
+#giphyiframe {
+	overflow: scroll;
+	height: 360px;
+	position: absolute;
+	top: 50%;
+	left: 60%;
+
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+}
+
+#giphyiframe iframe {
+	height: 300px;
+	width: 640px;
+
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+}
+
+#youriframe {
+	height: 360px;
+	width: 640px;
+	position: absolute;
+	top:50%;
+
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+}
+
+/*	----- joyce insert -----	*/
+.scrollable-menu {
+	height: auto;
+	max-height: 150px;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 5em;
+	font-weight: bolder;
+	color: white;
+}
+
+#media-container {
+	background: black;
+}
+
+a {
+	color: black;
+	padding: 5px;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
